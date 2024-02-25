@@ -2,11 +2,6 @@ body {
     background-color: white;
 }
 
-img {
-    position: absolute;
-    height: 400px;
-    width: 100%;
-}
 
 .centered {
     position: absolute;
