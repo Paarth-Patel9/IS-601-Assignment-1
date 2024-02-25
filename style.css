@@ -1,3 +1,4 @@
+
 body {
     background-color: orangered;
 }
@@ -5,7 +6,7 @@ body {
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: orange;
   }
   
 .centered {
