@@ -71,6 +71,11 @@ hr {
   border-width: 1px;
 } 
 
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+}
 
 footer {
   display: flex;
@@ -82,9 +87,19 @@ footer {
     </style>
 </head>
 
+<body>
     
     <div class="container" style="color: white">
         <img src="photo1.jpg" alt="photo" style= "height: 900px; width: 100%;">
+
+
+        <div class="top-left">
+            <p style="display: inline-block; margin-left: 50%;"><a href="#s1"style="text-decoration: none; color: black;font-family: Times New Roman, Times, serif; font-size: 25px;">Skills</a></p>
+            <p style="display: inline-block;  margin-left: 4%;"><a href="#s2" style="text-decoration: none; color: black;font-family: Times New Roman, Times, serif; font-size: 25px;">Education</a>
+            <p style="display: inline-block; margin-left: 4%;"><a href="#s3" style="text-decoration: none; color: black;font-family: Times New Roman, Times, serif; font-size: 25px;">Honor Society</a></p>
+            <p style="display: inline-block; margin-left: 4%;"><a href="#s4" style="text-decoration: none; color: black;font-family: Times New Roman, Times, serif; font-size: 25px;">Contact</a></p>
+        </div>
+
         <div class="centered">PAARTH<br>PATEL</div>
     </div>
 
@@ -112,7 +127,7 @@ footer {
     </div>
 
     <br> <br>
-    <h1><strong>Skills</strong></h1>
+    <h1 id="s1"><strong>Skills</strong></h1>
     <ul>
         <li>Python</li>
         <li>C/C++</li>
@@ -132,7 +147,7 @@ footer {
     </hr>
 
     <br>
-    <h1><strong>Education</strong></h1>
+    <h1 id="s2"><strong>Education</strong></h1>
     <h2><b>M.S in Computer Science</b></h2>
     <p style="font-family: Times New Roman, Times, serif; color: black; font-size: 18px;margin-left: 40%; width: 55%;">
     <i>
@@ -152,7 +167,7 @@ footer {
 
 
     <br>
-    <h1><strong>Experience</strong></h1>
+    <h1 id="s2"><strong>Experience</strong></h1>
     <h2><b>Forex Trader</b></h2>
     <p style="font-family: Times New Roman, Times, serif; color: black; font-size: 18px;margin-left: 40%; width: 45%;">
     <i>
@@ -184,7 +199,7 @@ footer {
 
 
     <br>
-    <h1><strong>Honor Society</strong></h1>
+    <h1 id="s3"><strong>Honor Society</strong></h1>
     <h2><b>Member of The National Society of Leadership and Success</b></h2>
     <p style="font-family: Times New Roman, Times, serif; color: black; font-size: 18px;margin-left: 40%; width: 55%;">
     <i>
@@ -210,7 +225,7 @@ footer {
 
 
 
-        <h4>Get in Touch</h4>
+        <h4 id="s4">Get in Touch</h4>
         
         <form action="mailto:pap9@njit.edu" method="post" enctype="text/plain" style="margin: 0px 0px 0px 40%;">
             <input type="text" name="name" placeholder="Name" style="background-color: gray; color: white; width: 380px; height: 30px;">
@@ -225,9 +240,9 @@ footer {
     </div>
 
     <footer>
-        <p style=" font-family: Times New Roman, Times, serif; color: black; font-size: 20px">Copyright © 2024 Paarth Patel</p>
+        <p style=" font-family: Times New Roman, Times, serif; color: black; font-size: 18px">© Copyright 2024 Paarth Patel</p>
     </footer
 
-  
+
 
 </body>
