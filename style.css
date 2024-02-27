@@ -68,7 +68,9 @@ border-width: 1px;
 .top-left {
 position: absolute;
 top: 10%;
-left: 25%;
+left: 5%;
+width: 30%;
+
 }
 
 footer {
